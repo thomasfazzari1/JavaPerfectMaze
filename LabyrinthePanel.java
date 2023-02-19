@@ -21,7 +21,7 @@ class LabyrinthePanel extends JPanel implements KeyListener {
 	int cellules;
 	float tailleCase2d;
 	Position debut,fin,current;
-	public Labyrinthe lab;
+	Labyrinthe lab;
 
 	public LabyrinthePanel(int cellules) {
 		addKeyListener(this);
